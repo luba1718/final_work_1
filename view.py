@@ -1,6 +1,6 @@
 class View:
     def greeting(self):
-        print("Вас приветствует приложение для управления личными заметками!")
+        print("Добро пожаловать в приложение заметок")
 
     def show_main_menu(self):
         print("Что вы хотите сделать? Выберите пункт меню:\n"
@@ -67,4 +67,4 @@ class View:
         return value
 
     def exit_msg(self):
-        print("Всего хорошего!")
+        print("До свидания!")
